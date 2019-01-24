@@ -1,0 +1,18 @@
+{
+  "name": "Shop & Show Test Project",
+  "description": "This is a test task. Have a nice day!",
+  "autoload": {
+    "psr-4": {
+      "Mars\\": "src",
+      "MarsTest\\": "tests"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^7"
+  },
+  "scripts": {
+    "test": [
+      "phpunit tests"
+    ]
+  }
+}
